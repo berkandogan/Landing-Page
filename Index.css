@@ -1,0 +1,217 @@
+
+#navbar ul {
+	width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    right: 40px;
+}
+
+#navbar li {
+	list-style: none;
+
+}
+
+#navbar a {
+	text-decoration: none;
+	color:orange;
+}
+
+#navbar a:hover {
+	text-decoration: underline;
+}
+
+#Home img {
+	width:100%;
+}
+
+#Home h3 {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:orange;
+    font-size:45px;
+}
+
+#Home p {
+	position: absolute;
+	top: 60%;
+    left: 20%;
+    right:20%;
+    color:orange;
+    text-align: center;
+}
+
+#Home a {
+	position: absolute;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	top:70%;
+	left:45%;
+	border: 1px solid red;
+	border-radius: 15px;
+	background: red;
+	padding: 5px;
+}
+
+#Home a:hover {
+	background: orange;
+}
+
+
+#Blog h3 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.BlogDesc {
+	text-align: center;
+}
+
+.BlogFeature {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Communications,.Lost-Letter,.Lambda-Ultimate {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px;
+
+}
+
+.Blog-Title {
+	padding: 5px;
+	font-weight: bold;
+}
+
+.BlogTypeDesc {
+	padding-top: 10px;
+}
+
+#Blog a {
+	text-decoration: none;
+	color: gray;
+}
+
+#Features h2{
+	text-align: center;
+
+}
+
+.FeaturesDesc {
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 10px;
+	
+}
+
+.Study-Key-Areas,.Education-Program-Information,.Education-Program-Global-Informatics {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px;
+}
+
+.FeatureColor {
+	background-color: #F0F2FE;
+}
+
+.FeatureType {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.Feature-Title {
+	padding: 5px;
+	font-weight: bold;
+}
+
+.FeatureExplanationDesc {
+	font-size: 17px;
+	padding-top: 30px;
+	margin-right: 100px;
+}
+
+.FeatureExplanationSecond {
+	padding-top: 110px;
+	padding-left: 30px;
+}
+
+#Pricing {
+	margin-top:150px;
+}
+
+#Pricing h2 {
+	text-align: center;
+}
+
+#Pricing li {
+	list-style: none;
+}
+
+#Pricing a {
+	font-size:18px;
+	text-decoration: none;
+	color:white;
+	background: blue;
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 5px 15px 5px 15px;
+}
+
+#Pricing a:hover {
+	background: orange;
+}
+
+.FirstClass,.SecondClass,.ThirdClass {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 15px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.PriceTab {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Price-Title {
+	font-style: arial;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #ddd;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+footer {
+	background: gray;
+	padding: 50px;
+}
+
+#Contact img {
+	width: 3%;
+	position: relative;
+	float:right;
+	margin-top:-5px;
+	margin-left:5px;
+}
